@@ -49,13 +49,14 @@
 .section-title {
   color: #9FA668;
   text-align: center;
+  font-size: 2rem;
 }
 
 .plan {
   background: #FEFACD;
   text-align: center;
   padding: 1rem;
-  margin: 0 0.5rem;
+  margin: 0.5rem;
   width: 100%;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
@@ -120,11 +121,11 @@
 
 #plans {
   background-color: #F2EDE4;
+  padding: 2rem 0;
 }
 
 #key-features {
   background: #72B3AD;
-  margin-top: 5rem;
   padding: 1rem;
 }
 
@@ -140,8 +141,28 @@
   text-align: center;
 }
 
-.key-feature__image {
-  background: #ffcede;
+.key-feature__image1 {
+  background:  url("images/face1.jpeg") center/cover no-repeat border-box;
+  width: 128px;
+  height: 128px;
+  border: 2px solid #424242;
+  border-radius: 50%;
+  margin: auto;
+  padding: 1.5rem;
+}
+
+.key-feature__image2 {
+  background:  url("images/face2.jpeg") center/cover no-repeat border-box;
+  width: 128px;
+  height: 128px;
+  border: 2px solid #424242;
+  border-radius: 50%;
+  margin: auto;
+  padding: 1.5rem;
+}
+
+.key-feature__image3 {
+  background:  url("images/face3.jpeg") center/cover no-repeat border-box;
   width: 128px;
   height: 128px;
   border: 2px solid #424242;
