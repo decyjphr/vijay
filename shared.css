@@ -107,8 +107,8 @@ main {
 
 .main-nav__item a:hover,
 .main-nav__item a:active {
-  color: white;
-  border-bottom: 5px solid white;
+  color: #FFBE44;
+  border-bottom: 5px solid #FFBE44;
 }
 
 .main-nav__item--cta a,
@@ -124,7 +124,7 @@ main {
 .mobile-nav__item--cta a:hover,
 .mobile-nav__item--cta a:active {
   color: #FFBE44;
-  background: white;
+  background: #0e4f1f;
   border: none;
 }
 
