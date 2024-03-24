@@ -3,7 +3,7 @@
     url("images/group2.jpeg") center/cover no-repeat border-box,
     #B7DF2D ; */
     background: 
-    url("images/group2.jpeg") center/cover no-repeat border-box,
+    url("images/banner.jpeg") center/cover no-repeat border-box,
     #B7DF2D ;
   /* background-image: url("freedom.jpg");
     background-size: cover;
@@ -17,12 +17,13 @@
   height: 33vh;
   /* border: 5px dashed red; */
   position: relative;
+  top: 0;
+  left: 0;
 }
 
 #product-overview h1 {
   color: #F2EBDC;
   font-family: "Anton", sans-serif;
-  position: absolute;
   bottom: 5%;
   left: 3%;
   font-size: 1.6rem;
@@ -122,6 +123,7 @@
 #plans {
   background-color: #F2EDE4;
   padding: 2rem 0;
+  position: relative;
 }
 
 #key-features {
