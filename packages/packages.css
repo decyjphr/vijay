@@ -14,7 +14,8 @@ main {
 }
 
 .background {
-    background: url("../images/plans-background.jpeg") center/cover;
+
+    background: #D9D8D7;
     filter: grayscale(40%);
     width: 100vw;
     height: 100vh;
