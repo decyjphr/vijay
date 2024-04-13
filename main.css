@@ -6,6 +6,7 @@
     url("images/banner.jpeg") left/cover no-repeat border-box,
     #B7DF2D ;
     background-size: 100% 100%;
+
   /* background-image: url("freedom.jpg");
     background-size: cover;
     background-position: left 10% bottom 20%; */
@@ -33,14 +34,17 @@
 
 @media (min-width: 40rem) and (min-height: 40rem) {
   #product-overview {
+    width: 60vw;
     height: 40vh;
-    background-position: 0% 25%;
+    background-position: left 20%; 
+    background-size: 100% 100%;
+    left: 20%;
   }
 
   #product-overview h1 {
     color: #4F8C32;
     font-size: 5rem;
-    backgrounds: #F8FFE8;
+
     background: linear-gradient(to right,  #F23D7F 2%, #9FA668 100%);
     -webkit-background-clip: text;
     background-clip: text;

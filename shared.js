@@ -9,12 +9,17 @@ var mobileNav = document.querySelector(".mobile-nav");
 
 // console.dir(backdrop);
 for (var i = 0; i < selectPlanButtons.length; i++) {
-  selectPlanButtons[i].addEventListener("click", function() {
+  selectPlanButtons[i].addEventListener("click", function(e) {
     // modal.style.display = "block";
     // backdrop.style.display = "block";
     // modal.className = 'open'; // This will actually overwrite the complete class list
-    modal.classList.add("open");
-    backdrop.classList.add("open");
+    //modal.classList.add("open");
+    //backdrop.classList.add("open");
+    e.target.id === "healthcareButton"
+      ? (window.location.href = "healthcare/index.html")
+      : (window.location.href = "education/index.html");
+
+    //window.location.href = "healthcare/index.html";
   });
 }
 
